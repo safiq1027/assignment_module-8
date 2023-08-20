@@ -1,6 +1,6 @@
 <script setup>
 import {reactive} from 'vue'
-import ChildComponent from './ChildComponent.vue';
+import ChildComponent from './components./ChildComponent.vue';
 const persons=reactive({
     name:'Md Safiqul Islam',
     age : 25,
